@@ -78,14 +78,14 @@ namespace SortingAlgsCompCS
                 Console.Write("  [ ");
                 for (int i = 0; i < ListToPrint.Count; i++)
                 {
-                    Console.Write("{0} ", ListToPrint[i]);
+                    Console.Write("{0}", ListToPrint[i]);
 
                     if(i < ListToPrint.Count - 1)
                     {
                         Console.Write(", ");
                     }
                 }
-                Console.Write(" ]\n");
+                Console.Write("]\n");
             }
         }
 

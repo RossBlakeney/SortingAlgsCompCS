@@ -37,7 +37,7 @@ namespace SortingAlgsCompCS
                 randomizedList = createRandomizedList(numberOfValuesToSort);
 
                 // Insertion sort - n^2
-                cummulativeInsertionSortDuration += insertionSorter.SortRuntimeTest(randomizedList, ref sortedList);
+                //cummulativeInsertionSortDuration += insertionSorter.SortRuntimeTest(randomizedList, ref sortedList);
 
                 // Merge sort - n lg n
                 cummulativeMergeSortDuration += mergeSorter.SortRuntimeTest(randomizedList, ref sortedList);
